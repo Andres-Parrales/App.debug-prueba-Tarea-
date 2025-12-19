@@ -17,22 +17,17 @@ SDK: Android SDK
 
 Control de versiones: Git
 
-Estructura del repositorio
+## 📂 Estructura del Repositorio
+
+El proyecto sigue una estructura estándar de desarrollo Android. A continuación se detallan los directorios y archivos principales:
+
+```text
 /
-├── src/
-│   └── Código fuente de la aplicación Android
-│
-├── app-debug.apk
-│   └── Archivo APK compilado e instalable
-│
-├── .gitignore
-│   └── Configuración de archivos ignorados por Git
-│
-├── build.gradle.kts
-│   └── Configuración principal de dependencias y compilación
-│
-├── proguard-rules.pro
-│   └── Reglas de optimización y ofuscación
+├── src/                    # Código fuente de la aplicación Android
+├── app-debug.apk           # Archivo APK compilado (listo para instalación)
+├── .gitignore              # Archivos y carpetas excluidos del control de versiones
+├── build.gradle.kts        # Configuración de dependencias y scripts de compilación
+└── proguard-rules.pro      # Reglas para la optimización y ofuscación del código
 
 Funcionalidad de la aplicación
 
